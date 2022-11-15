@@ -1,0 +1,20 @@
+For MAC iOS and Unix like OS.
+
+1. Open a terminal
+2. Move to src folder
+3. Compile all *.java files to get *.class files:
+    javac HelloInterface.java
+    javac HelloServerOperation.java
+    javac HelloClientOperation.java
+4. Run the resgistry:
+    rmiregistry &
+5. Run the Server:
+    java HelloServerOperation
+7. Open a new terminal
+8. Move to src folder
+9. Run the Client:
+    java HelloClientOperation
+
+
+
+
